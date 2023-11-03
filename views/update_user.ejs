@@ -1,0 +1,72 @@
+<%-include("include/_header")%>
+
+<div class="container">
+  <!-- update form -->
+
+  <div class="cards-container">
+    <div class="form-container">
+      <div class="header">
+        <a href="/"><i class="fas fa-angle-double-left"></i>All Users</a>
+        <h2 class="title">UPDATE POST</h2>
+      </div>
+
+      <form  method="POST" id="update_user">
+        <div class="new_user">
+          <div class="form-group">
+            <label for="name" class="text-light">Name</label>
+            <input type="hidden" name="id" value="<%= users._id%>" />
+            <input
+              type="text"
+              name="name"
+              value="<%= users.name%>"
+              placeholder="Enter the name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="name" class="text-light">Auther Name</label>
+            <input
+              type="text"
+              name="auther"
+              value="<%= users.auther%>"
+              placeholder="Enter the Auther name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="image" class="text-light">Link of image </label>
+            <input
+              type="text"
+              name="link"
+              value="<%= users.link%>"
+              placeholder="Link"
+            />
+          </div>
+          <div class="form-group">
+            <label for="description" class="text-light">Description</label>
+            <textarea
+              name="description"
+              placeholder="Description"
+              rows="10"
+              cols="19"
+            >
+<%= users.description%></textarea
+            >
+          </div>
+          <div class="form-group">
+            <label for="date" class="text-light">Date</label>
+            <input
+              type="date"
+              name="date"
+              value="<%= users.date%>"
+              placeholder="Date"
+            />
+          </div>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn update">Save</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<%-include("include/_footer")%>

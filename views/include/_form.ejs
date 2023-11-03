@@ -1,0 +1,38 @@
+<form action="/api/users" method="POST" id="add_user">
+  <div class="new_user">
+    <div class="form-group">
+      <label for="name" class="text-light">Name</label>
+      <input type="hidden" name="id" value="" />
+      <input type="text" name="name" value="" placeholder="Enter the name" />
+    </div>
+    <div class="form-group">
+      <label for="name" class="text-light">Auther Name</label>
+      <input
+        type="text"
+        name="auther"
+        value=""
+        placeholder="Enter the Auther name"
+      />
+    </div>
+    <div class="form-group">
+      <label for="image" class="text-light">Link of image </label>
+      <input type="text" name="link" value="" placeholder="Link of image" />
+    </div>
+    <div class="form-group">
+      <label for="description" class="text-light">Description</label>
+      <textarea
+        name="description"
+        placeholder="Enter the details here........"
+        rows="10"
+        cols="19"
+      ></textarea>
+    </div>
+    <div class="form-group">
+      <label for="date" class="text-light">Date</label>
+      <input type="date" name="date" value="" placeholder="Date" />
+    </div>
+  </div>
+  <div class="form-group">
+    <button type="submit" class="btn">Submit</button>
+  </div>
+</form>

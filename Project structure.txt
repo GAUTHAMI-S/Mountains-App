@@ -1,0 +1,15 @@
+In this project we follow MVC architecture
+List of folders
+	1.assests
+		a.css
+		b.images
+		c.js
+	2.views(V)
+		a.html
+	3.server
+		a.controller(C)
+		b.database
+		c.model(M)
+		d.services
+
+In the assests
