@@ -13,3 +13,9 @@ List of folders
 		d.services
 
 In the assests
+
+
+Updation wish to make
+1. About page
+2. Create a full page description for each mountain
+3. modify the look of card and add readmore option
