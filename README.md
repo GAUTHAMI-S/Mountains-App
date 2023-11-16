@@ -25,9 +25,5 @@ Mountains is a web application built using Node.js, Express, MongoDB, and Mongoo
 ## Demo
 
 Watch a video demonstration of the application:
-
-<video width="640" height="360" controls>
-  <source src="videos/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/GAUTHAMI-S/Mountains-App/assets/67738017/0517d49e-31b5-4a39-94e4-1271deb5c546
 
