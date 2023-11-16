@@ -4,8 +4,6 @@ exports.homeRoutes = (req, res) => {
   axios
     .get("http://localhost:3000/api/users")
     .then(function (response) {
-      console.log("👽This is a GET request");
-
       res.render("index", { users: response.data });
     })
     .catch((err) => {
@@ -19,7 +17,6 @@ exports.update_user = (req, res) => {
   axios
     .get("http://localhost:3000/api/users", { params: { id: req.query.id } })
     .then(function (userdata) {
-      console.log(userdata.data);
       res.render("update_user", { users: userdata.data });
     })
     .catch((err) => {
